@@ -1,2 +1,2 @@
-## UML chart:
+## Pattern Decorator реалізовано в блоці model/service:
 ![UML chart](https://github.com/WebSkesh/Decorator/blob/master/uml.jpg)

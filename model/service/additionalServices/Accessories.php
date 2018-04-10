@@ -8,11 +8,18 @@
 
 namespace service\additionalServices;
 use service\ServiceDecorator;
+use service\ServiceInterface;
 
 class Accessories extends ServiceDecorator
 {
+    public function __construct(ServiceInterface $service)
+    {
+        parent::__construct($service);
+        $this->doService();
+    }
+
     public function doService() {
-        echo "Сервіс придбання додаткових аксесуарів <br />";
+        echo "<br /> + Сервіс придбання додаткових аксесуарів <br />";
         $this->service->doService();
     }
 }

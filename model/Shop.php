@@ -21,8 +21,14 @@ class Shop
         $this->address=$address;
     }
 
-    public function productList() {
+    public static function productList () {
+        foreach ($this->products as $productId) {
+            Display::Product();
+        }
+    }
 
+    public function makeOrder () {
+        return true;
     }
 
 

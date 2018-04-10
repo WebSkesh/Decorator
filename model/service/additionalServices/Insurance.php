@@ -8,12 +8,19 @@
 
 namespace service\additionalServices;
 use service\ServiceDecorator;
+use service\ServiceInterface;
 
 
 class Insurance extends ServiceDecorator
 {
+    public function __construct(ServiceInterface $service)
+    {
+        parent::__construct($service);
+        $this->doService();
+    }
+
     public function doService() {
-        echo "Сервіс страхування товару <br />";
+        echo "<br /> + Сервіс страхування товару <br />";
         $this->service->doService();
     }
 }

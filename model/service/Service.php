@@ -16,6 +16,7 @@ class Service implements ServiceInterface
     {
         $this->name=$name;
         $this->price=$price;
+        $this->doService();
     }
 
     public function getService()
@@ -27,6 +28,6 @@ class Service implements ServiceInterface
     }
 
     public function doService() {
-        echo "Це якийсь основний сервіс.";
+        echo "<br /> Це якийсь основний сервіс: ".$this->name." ".$this->price."$";
     }
 }

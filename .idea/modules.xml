@@ -3,8 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Decorator.iml" filepath="$PROJECT_DIR$/.idea/Decorator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MVC/.idea/MVC.iml" filepath="$PROJECT_DIR$/../MVC/.idea/MVC.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Status/.idea/Status.iml" filepath="$PROJECT_DIR$/../Status/.idea/Status.iml" />
       <module fileurl="file://$PROJECT_DIR$/../crl/.idea/crl.iml" filepath="$PROJECT_DIR$/../crl/.idea/crl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../e3/.idea/e3.iml" filepath="$PROJECT_DIR$/../e3/.idea/e3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../epam_homework/.idea/epam.iml" filepath="$PROJECT_DIR$/../epam_homework/.idea/epam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../laravel.loc/.idea/laravel.loc.iml" filepath="$PROJECT_DIR$/../laravel.loc/.idea/laravel.loc.iml" />
     </modules>
   </component>
 </project>

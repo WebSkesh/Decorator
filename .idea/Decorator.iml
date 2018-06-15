@@ -8,5 +8,10 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Status" />
     <orderEntry type="module" module-name="crl" />
+    <orderEntry type="module" module-name="MVC" />
+    <orderEntry type="module" module-name="laravel.loc" />
+    <orderEntry type="module" module-name="epam" />
+    <orderEntry type="module" module-name="epam" />
+    <orderEntry type="module" module-name="e3" />
   </component>
 </module>
